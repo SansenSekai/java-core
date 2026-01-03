@@ -1,0 +1,15 @@
+com\java\learning\collections\LRUCacheTest$EvictionPolicy.class
+com\java\learning\collections\RingBufferTest$BasicOperations.class
+com\java\learning\collections\TrieTest$StartsWithTests.class
+com\java\learning\collections\RingBufferTest$WrapAround.class
+com\java\learning\collections\LRUCacheTest$EdgeCases.class
+com\java\learning\collections\TrieTest$Size.class
+com\java\learning\collections\TrieTest.class
+com\java\learning\collections\RingBufferTest$Iteration.class
+com\java\learning\collections\TrieTest$Autocomplete.class
+com\java\learning\collections\TrieTest$InsertAndSearch.class
+com\java\learning\collections\LRUCacheTest$BasicOperations.class
+com\java\learning\collections\RingBufferTest$Overflow.class
+com\java\learning\collections\RingBufferTest.class
+com\java\learning\collections\LRUCacheTest.class
+com\java\learning\collections\TrieTest$Deletion.class

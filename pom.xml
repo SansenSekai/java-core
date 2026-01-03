@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.java.learning</groupId>
+    <artifactId>java-core</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Java Core Learning Project</name>
+    <description>Мультимодульный проект для глубокого изучения Java Core на уровне Senior Developer</description>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.10.1</junit.version>
+        <mockito.version>5.8.0</mockito.version>
+        <assertj.version>3.24.2</assertj.version>
+        <jmh.version>1.37</jmh.version>
+    </properties>
+
+    <modules>
+        <!-- Блок 1: ООП и принципы проектирования -->
+        <module>01-oop-encapsulation</module>
+        <module>02-oop-inheritance-polymorphism</module>
+        <module>03-solid-principles</module>
+        <module>04-exceptions-mastery</module>
+        
+        <!-- Блок 2: Система типов и дженерики -->
+        <module>05-generics-deep-dive</module>
+        <module>06-equals-hashcode-contract</module>
+        
+        <!-- Блок 3: Коллекции -->
+        <module>07-collections-internals</module>
+        <module>08-hashmap-internals</module>
+        <module>09-custom-collections</module>
+        
+        <!-- Блок 4: Функциональное программирование -->
+        <module>10-lambdas-and-functional-interfaces</module>
+        <module>11-stream-api-mastery</module>
+        <module>12-optional-and-null-safety</module>
+        
+        <!-- Блок 5: Многопоточность - Основы -->
+        <module>13-threads-fundamentals</module>
+        <module>14-synchronization-primitives</module>
+        <module>15-java-memory-model</module>
+        
+        <!-- Блок 6: Многопоточность - Продвинутый уровень -->
+        <module>16-executor-framework</module>
+        <module>17-completable-future</module>
+        <module>18-concurrent-collections</module>
+        <module>19-locks-and-conditions</module>
+        <module>20-forkjoin-framework</module>
+        
+        <!-- Блок 7: Reflection и метапрограммирование -->
+        <module>21-reflection-api</module>
+        <module>22-annotations-processing</module>
+        <module>23-dynamic-proxies</module>
+        
+        <!-- Блок 8: I/O и NIO -->
+        <module>24-io-streams</module>
+        <module>25-nio2-files-api</module>
+        <module>26-serialization</module>
+        
+        <!-- Блок 9: Память и производительность -->
+        <module>27-memory-management</module>
+        <module>28-memory-leaks</module>
+        <module>29-performance-optimization</module>
+        
+        <!-- Блок 10: Паттерны проектирования -->
+        <module>30-patterns-creational</module>
+        <module>31-patterns-structural</module>
+        <module>32-patterns-behavioral</module>
+        
+        <!-- Блок 11: Продвинутые темы -->
+        <module>33-classloaders</module>
+        <module>34-java-modules-jpms</module>
+        <module>35-varhandle-methodhandle</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- JUnit 5 -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            
+            <!-- Mockito -->
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-junit-jupiter</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+            
+            <!-- AssertJ -->
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>${assertj.version}</version>
+                <scope>test</scope>
+            </dependency>
+            
+            <!-- JMH for benchmarking -->
+            <dependency>
+                <groupId>org.openjdk.jmh</groupId>
+                <artifactId>jmh-core</artifactId>
+                <version>${jmh.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openjdk.jmh</groupId>
+                <artifactId>jmh-generator-annprocess</artifactId>
+                <version>${jmh.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- Все модули получают JUnit 5 и AssertJ -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.11.0</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <compilerArgs>
+                            <arg>-parameters</arg>
+                        </compilerArgs>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.2.2</version>
+                    <configuration>
+                        <includes>
+                            <include>**/*Test.java</include>
+                            <include>**/*Tests.java</include>
+                        </includes>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+

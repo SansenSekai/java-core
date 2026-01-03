@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.BankAccountTest$WithdrawalTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.java.learning.encapsulation.BankAccountTest$WithdrawalTests
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectNegativeWithdrawal -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectNegativeWithdrawal(BankAccountTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRecordWithdrawalInHistory -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRecordWithdrawalInHistory(BankAccountTest.java:188)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldDecreaseBalance -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldDecreaseBalance(BankAccountTest.java:135)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectOverdraft -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectOverdraft(BankAccountTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldAllowWithdrawingEntireBalance -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldAllowWithdrawingEntireBalance(BankAccountTest.java:146)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectZeroWithdrawal -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$WithdrawalTests.shouldRejectZeroWithdrawal(BankAccountTest.java:170)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

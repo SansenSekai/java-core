@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.BankAccountTest$CreationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! -- in com.java.learning.encapsulation.BankAccountTest$CreationTests
+com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldAddOpeningEntryToHistory -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldAddOpeningEntryToHistory(BankAccountTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldRejectNegativeInitialBalance -- Time elapsed: 0.014 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  java.lang.IllegalArgumentException
+but was:
+  java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.lambda$shouldRejectNegativeInitialBalance$0(BankAccountTest.java:40)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldRejectNegativeInitialBalance(BankAccountTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldCreateAccountWithValidBalance -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldCreateAccountWithValidBalance(BankAccountTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldRejectNullInitialBalance -- Time elapsed: 0.003 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual throwable to be an instance of:
+  java.lang.IllegalArgumentException
+but was:
+  java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.lambda$shouldRejectNullInitialBalance$1(BankAccountTest.java:47)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldRejectNullInitialBalance(BankAccountTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldCreateAccountWithZeroBalance -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$CreationTests.shouldCreateAccountWithZeroBalance(BankAccountTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

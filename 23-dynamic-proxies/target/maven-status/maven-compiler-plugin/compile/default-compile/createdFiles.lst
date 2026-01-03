@@ -1,0 +1,3 @@
+com\java\learning\proxy\CachingProxy.class
+com\java\learning\proxy\RetryProxy.class
+com\java\learning\proxy\LoggingProxy.class

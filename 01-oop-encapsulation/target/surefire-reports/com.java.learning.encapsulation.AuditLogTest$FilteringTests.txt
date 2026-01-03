@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.AuditLogTest$FilteringTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in com.java.learning.encapsulation.AuditLogTest$FilteringTests
+com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldReturnUnmodifiableFilteredList -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldReturnUnmodifiableFilteredList(AuditLogTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldFilterByUser -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldFilterByUser(AuditLogTest.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldReturnEmptyListForNonExistentUser -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldReturnEmptyListForNonExistentUser(AuditLogTest.java:154)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldFilterByDateRange -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$FilteringTests.shouldFilterByDateRange(AuditLogTest.java:165)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

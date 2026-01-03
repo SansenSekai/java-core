@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests
+com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests.shouldNotBeAffectedByModifyingReturnedList -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement getHobbies
+	at com.java.learning.encapsulation.Person.getHobbies(Person.java:59)
+	at com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests.shouldNotBeAffectedByModifyingReturnedList(PersonTest.java:123)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests.shouldNotBeAffectedByModifyingOriginalList -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement getHobbies
+	at com.java.learning.encapsulation.Person.getHobbies(Person.java:59)
+	at com.java.learning.encapsulation.PersonTest$HobbiesImmutabilityTests.shouldNotBeAffectedByModifyingOriginalList(PersonTest.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

@@ -1,0 +1,5 @@
+com\java\learning\annotations\Validate.class
+com\java\learning\annotations\Validator$ValidationException.class
+com\java\learning\annotations\Validator$ValidationResult.class
+com\java\learning\annotations\Validator.class
+com\java\learning\annotations\Validator$ValidationError.class

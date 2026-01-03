@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests
+com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectNullUser -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectNullUser(AuditLogTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldAddValidEntry -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldAddValidEntry(AuditLogTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectNullAction -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectNullAction(AuditLogTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectEmptyAction -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldRejectEmptyAction(AuditLogTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldHaveCorrectTimestamp -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.AuditLog.<init>(AuditLog.java:22)
+	at com.java.learning.encapsulation.AuditLogTest$AddingEntriesTests.shouldHaveCorrectTimestamp(AuditLogTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

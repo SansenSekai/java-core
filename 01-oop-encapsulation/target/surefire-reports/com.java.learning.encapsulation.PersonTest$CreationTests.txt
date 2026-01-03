@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.PersonTest$CreationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in com.java.learning.encapsulation.PersonTest$CreationTests
+com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectNullName -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting code to raise a throwable.
+	at com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectNullName(PersonTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectFutureBirthDate -- Time elapsed: 0.003 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting code to raise a throwable.
+	at com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectFutureBirthDate(PersonTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$CreationTests.shouldCreatePersonWithValidData -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement getHobbies
+	at com.java.learning.encapsulation.Person.getHobbies(Person.java:59)
+	at com.java.learning.encapsulation.PersonTest$CreationTests.shouldCreatePersonWithValidData(PersonTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectEmptyName -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting code to raise a throwable.
+	at com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectEmptyName(PersonTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectNullAddress -- Time elapsed: 0.002 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting code to raise a throwable.
+	at com.java.learning.encapsulation.PersonTest$CreationTests.shouldRejectNullAddress(PersonTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

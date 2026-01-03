@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.PersonTest$WitherMethodTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in com.java.learning.encapsulation.PersonTest$WitherMethodTests
+com.java.learning.encapsulation.PersonTest$WitherMethodTests.shouldCreateNewPersonWithNewAddress -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement withAddress
+	at com.java.learning.encapsulation.Person.withAddress(Person.java:93)
+	at com.java.learning.encapsulation.PersonTest$WitherMethodTests.shouldCreateNewPersonWithNewAddress(PersonTest.java:171)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$WitherMethodTests.shouldCreateNewPersonWithAddedHobby -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement withHobby
+	at com.java.learning.encapsulation.Person.withHobby(Person.java:85)
+	at com.java.learning.encapsulation.PersonTest$WitherMethodTests.shouldCreateNewPersonWithAddedHobby(PersonTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

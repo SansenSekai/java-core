@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests
+com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests.shouldMaintainCorrectOrderOfOperations -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests.shouldMaintainCorrectOrderOfOperations(BankAccountTest.java:226)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests.shouldNotAllowModifyingHistoryThroughReturnedList -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$HistoryProtectionTests.shouldNotAllowModifyingHistoryThroughReturnedList(BankAccountTest.java:209)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

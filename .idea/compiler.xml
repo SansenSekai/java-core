@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="10-lambdas-and-functional-interfaces" />
+        <module name="25-nio2-files-api" />
+        <module name="12-optional-and-null-safety" />
+        <module name="14-synchronization-primitives" />
+        <module name="27-memory-management" />
+        <module name="05-generics-deep-dive" />
+        <module name="07-collections-internals" />
+        <module name="20-forkjoin-framework" />
+        <module name="01-oop-encapsulation" />
+        <module name="03-solid-principles" />
+        <module name="21-reflection-api" />
+        <module name="32-patterns-behavioral" />
+        <module name="34-java-modules-jpms" />
+        <module name="02-oop-inheritance-polymorphism" />
+        <module name="24-io-streams" />
+        <module name="26-serialization" />
+        <module name="09-custom-collections" />
+        <module name="17-completable-future" />
+        <module name="15-java-memory-model" />
+        <module name="18-concurrent-collections" />
+        <module name="30-patterns-creational" />
+        <module name="08-hashmap-internals" />
+        <module name="16-executor-framework" />
+        <module name="33-classloaders" />
+        <module name="28-memory-leaks" />
+        <module name="23-dynamic-proxies" />
+        <module name="29-performance-optimization" />
+        <module name="31-patterns-structural" />
+        <module name="11-stream-api-mastery" />
+        <module name="04-exceptions-mastery" />
+        <module name="35-varhandle-methodhandle" />
+        <module name="19-locks-and-conditions" />
+        <module name="22-annotations-processing" />
+        <module name="13-threads-fundamentals" />
+        <module name="06-equals-hashcode-contract" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-oop-encapsulation" options="-parameters" />
+      <module name="02-oop-inheritance-polymorphism" options="-parameters" />
+      <module name="03-solid-principles" options="-parameters" />
+      <module name="04-exceptions-mastery" options="-parameters" />
+      <module name="05-generics-deep-dive" options="-parameters" />
+      <module name="06-equals-hashcode-contract" options="-parameters" />
+      <module name="07-collections-internals" options="-parameters" />
+      <module name="08-hashmap-internals" options="-parameters" />
+      <module name="09-custom-collections" options="-parameters" />
+      <module name="10-lambdas-and-functional-interfaces" options="-parameters" />
+      <module name="11-stream-api-mastery" options="-parameters" />
+      <module name="12-optional-and-null-safety" options="-parameters" />
+      <module name="13-threads-fundamentals" options="-parameters" />
+      <module name="14-synchronization-primitives" options="-parameters" />
+      <module name="15-java-memory-model" options="-parameters" />
+      <module name="16-executor-framework" options="-parameters" />
+      <module name="17-completable-future" options="-parameters" />
+      <module name="18-concurrent-collections" options="-parameters" />
+      <module name="19-locks-and-conditions" options="-parameters" />
+      <module name="20-forkjoin-framework" options="-parameters" />
+      <module name="21-reflection-api" options="-parameters" />
+      <module name="22-annotations-processing" options="-parameters" />
+      <module name="23-dynamic-proxies" options="-parameters" />
+      <module name="24-io-streams" options="-parameters" />
+      <module name="25-nio2-files-api" options="-parameters" />
+      <module name="26-serialization" options="-parameters" />
+      <module name="27-memory-management" options="-parameters" />
+      <module name="28-memory-leaks" options="-parameters" />
+      <module name="29-performance-optimization" options="-parameters" />
+      <module name="30-patterns-creational" options="-parameters" />
+      <module name="31-patterns-structural" options="-parameters" />
+      <module name="32-patterns-behavioral" options="-parameters" />
+      <module name="33-classloaders" options="-parameters" />
+      <module name="34-java-modules-jpms" options="-parameters" />
+      <module name="35-varhandle-methodhandle" options="-parameters" />
+      <module name="java-core" options="-parameters" />
+    </option>
+  </component>
+</project>

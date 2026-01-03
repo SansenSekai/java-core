@@ -1,0 +1,5 @@
+com\java\learning\patterns\structural\DecoratorTest.class
+com\java\learning\patterns\structural\DecoratorTest$CompressionDecoratorTest.class
+com\java\learning\patterns\structural\DecoratorTest$EncryptionDecoratorTest.class
+com\java\learning\patterns\structural\DecoratorTest$BaseDataSource.class
+com\java\learning\patterns\structural\DecoratorTest$DecoratorChain.class

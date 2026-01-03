@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests
+com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests.shouldCalculateAgeOnBirthday -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement getAge
+	at com.java.learning.encapsulation.Person.getAge(Person.java:75)
+	at com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests.shouldCalculateAgeOnBirthday(PersonTest.java:212)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests.shouldCalculateCorrectAge -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement getAge
+	at com.java.learning.encapsulation.Person.getAge(Person.java:75)
+	at com.java.learning.encapsulation.PersonTest$ComputedPropertiesTests.shouldCalculateCorrectAge(PersonTest.java:197)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

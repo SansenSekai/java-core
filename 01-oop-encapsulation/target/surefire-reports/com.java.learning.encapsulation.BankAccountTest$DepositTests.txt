@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.BankAccountTest$DepositTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! -- in com.java.learning.encapsulation.BankAccountTest$DepositTests
+com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectNullDeposit -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectNullDeposit(BankAccountTest.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRecordDepositInHistory -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRecordDepositInHistory(BankAccountTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectZeroDeposit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectZeroDeposit(BankAccountTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldIncreaseBalance -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldIncreaseBalance(BankAccountTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectNegativeDeposit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.encapsulation.BankAccount.<init>(BankAccount.java:34)
+	at com.java.learning.encapsulation.BankAccountTest$DepositTests.shouldRejectNegativeDeposit(BankAccountTest.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

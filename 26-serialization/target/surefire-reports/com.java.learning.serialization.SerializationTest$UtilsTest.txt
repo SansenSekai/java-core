@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.serialization.SerializationTest$UtilsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! -- in com.java.learning.serialization.SerializationTest$UtilsTest
+com.java.learning.serialization.SerializationTest$UtilsTest.shouldSerializeAndDeserialize -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.serialization.SerializationUtils.serialize(SerializationUtils.java:18)
+	at com.java.learning.serialization.SerializationTest$UtilsTest.shouldSerializeAndDeserialize(SerializationTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.serialization.SerializationTest$UtilsTest.shouldSaveAndLoadFromFile(Path) -- Time elapsed: 0.064 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.serialization.SerializationUtils.saveToFile(SerializationUtils.java:45)
+	at com.java.learning.serialization.SerializationTest$UtilsTest.shouldSaveAndLoadFromFile(SerializationTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.serialization.SerializationTest$UtilsTest.transientFieldsShouldNotBeSerialized -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.serialization.SerializationUtils.serialize(SerializationUtils.java:18)
+	at com.java.learning.serialization.SerializationTest$UtilsTest.transientFieldsShouldNotBeSerialized(SerializationTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.serialization.SerializationTest$UtilsTest.shouldCreateDeepCopy -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement
+	at com.java.learning.serialization.SerializationUtils.deepCopy(SerializationUtils.java:37)
+	at com.java.learning.serialization.SerializationTest$UtilsTest.shouldCreateDeepCopy(SerializationTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

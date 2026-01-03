@@ -1,0 +1,9 @@
+com\java\learning\patterns\creational\Singleton$HolderSingleton.class
+com\java\learning\patterns\creational\Singleton$SynchronizedSingleton.class
+com\java\learning\patterns\creational\Builder$HttpRequestBuilder.class
+com\java\learning\patterns\creational\Singleton$EnumSingleton.class
+com\java\learning\patterns\creational\Singleton$DCLSingleton.class
+com\java\learning\patterns\creational\Singleton$EagerSingleton.class
+com\java\learning\patterns\creational\Singleton.class
+com\java\learning\patterns\creational\Builder$HttpRequest.class
+com\java\learning\patterns\creational\Builder.class

@@ -1,0 +1,10 @@
+com\java\learning\reflection\ReflectionUtilsTest$Source.class
+com\java\learning\reflection\ReflectionUtilsTest.class
+com\java\learning\reflection\ReflectionUtilsTest$CreateInstance.class
+com\java\learning\reflection\ReflectionUtilsTest$IsImmutable.class
+com\java\learning\reflection\ReflectionUtilsTest$Target.class
+com\java\learning\reflection\ReflectionUtilsTest$PrivateAccess.class
+com\java\learning\reflection\ReflectionUtilsTest$CopyFields.class
+com\java\learning\reflection\ReflectionUtilsTest$GetAllMethods.class
+com\java\learning\reflection\ReflectionUtilsTest$IsImmutable$ImmutableClass.class
+com\java\learning\reflection\ReflectionUtilsTest$IsImmutable$MutableClass.class

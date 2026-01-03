@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.java.learning.encapsulation.AddressTest$WitherTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in com.java.learning.encapsulation.AddressTest$WitherTests
+com.java.learning.encapsulation.AddressTest$WitherTests.shouldCreateNewAddressWithDifferentStreet -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement withStreet
+	at com.java.learning.encapsulation.Address.withStreet(Address.java:73)
+	at com.java.learning.encapsulation.AddressTest$WitherTests.shouldCreateNewAddressWithDifferentStreet(AddressTest.java:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.java.learning.encapsulation.AddressTest$WitherTests.shouldCreateNewAddressWithDifferentCity -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement withCity
+	at com.java.learning.encapsulation.Address.withCity(Address.java:65)
+	at com.java.learning.encapsulation.AddressTest$WitherTests.shouldCreateNewAddressWithDifferentCity(AddressTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
