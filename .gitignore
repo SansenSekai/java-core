@@ -1,0 +1,37 @@
+# IDE
+.idea/
+.cursor/
+*.iml
+.vscode/
+
+# Build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+gc.log*
+
+# Heap dumps
+*.hprof
+
+# Compiled
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# JMH
+jmh-result.*
+
